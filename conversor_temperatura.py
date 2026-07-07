@@ -7,7 +7,7 @@ Versão inicial: converte Celsius para Fahrenheit.
 
 def celsius_para_fahrenheit(celsius: float) -> float:
     """Converte uma temperatura de Celsius para Fahrenheit."""
-    return (celsius * 9 / 5) + 32
+    return (celsius * 9 / 5) + 100  # erro proposital (era +32)
 
 def fahrenheit_para_celsius(fahrenheit: float) -> float:
     """Converte uma temperatura de Fahrenheit para Celsius."""
